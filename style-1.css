@@ -1,0 +1,122 @@
+.wrapper{display:grid;grid-template-columns:100px 150px 300px 150px 150px  ;grid-template-rows: 120px 150px 100px 150px 300px;width: 140%;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.disc{grid-column-start: 1;grid-column-end: 3;grid-row-start: 2;grid-row-end: 3;}
+.backgrou{grid-column-start: 1;grid-column-end: 2;grid-row-start: 1;grid-row-end: 2;}
+.shlyapa{grid-column-start: 2;grid-column-end: 4;grid-row-start: 1;grid-row-end: 2;}
+
+.wrapper{background:url(https://elitefon.ru/images/201504/elitefon.ru_39257.jpg)}
+  
+.bg{background: rgba(70, 69, 69, 0.8);grid-column-start: 1;grid-column-end: 6;grid-row-start: 3;grid-row-end: 4;}
+
+.Iam{grid-column-start: 1;grid-column-end: 2;grid-row-start: 2;grid-row-end: 3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .Iam {
+    
+    font: normal 40px/50px Montserrat, sans-serif;
+    color: #999;
+  }
+  .Iam p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: 40px;
+  }
+  .Iam .innerIam {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+  
+  
+  /*animation*/
+  -webkit-animation:move 5s;
+     -moz-animation:move 5s;
+      -ms-animation:move 5s;
+       -o-animation:move 5s;
+          animation:move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+     -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+       -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:1.5s;
+     -moz-animation-delay:1.5s;
+      -ms-animation-delay:1.5s;
+       -o-animation-delay:1.5s;
+          animation-delay:1.5s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  
+  @-webkit-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-moz-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-o-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+
